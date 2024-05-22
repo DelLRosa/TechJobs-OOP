@@ -6,13 +6,13 @@ namespace TechJobsOO.Tests
 	{
         //Task 4 Tests to verify students' unit tests.  Tests are numbered.
 
-        /* TODO: Task 4: Remove this line to uncomment the tests
+
 
         [TestMethod] //1
         public void Test_TestSettingJobIdExists()
         {
             //setup
-            Type testType = typeof(JobTests);
+            Type testType = typeof(TechJobs.Tests.JobTests);
             MemberInfo[] memberInfos = testType.GetMembers();
             string nameCheck = "TestSettingJobId";
             string existsCheck = "";
@@ -34,7 +34,7 @@ namespace TechJobsOO.Tests
         [TestMethod] //2
         public void Test_TestJobConstructorSetsAllFields()
         {
-            Type testType = typeof(JobTests);
+            Type testType = typeof(TechJobs.Tests.JobTests);
             MemberInfo[] memberInfos = testType.GetMembers();
             string nameCheck = "TestJobConstructorSetsAllFields";
             string existsCheck = "";
@@ -56,7 +56,7 @@ namespace TechJobsOO.Tests
         [TestMethod] //3
         public void Test_TestJobsForEquality()
         {
-            Type testType = typeof(JobTests);
+            Type testType = typeof(TechJobs.Tests.JobTests);
             MemberInfo[] memberInfos = testType.GetMembers();
             string nameCheck = "TestJobsForEquality";
             string existsCheck = "";
@@ -74,7 +74,6 @@ namespace TechJobsOO.Tests
             Assert.AreEqual("true", existsCheck, "'TestJobsForEquality' not found");
         }
 
-    TODO: Task 4: Remove this line to uncomment the tests */
 
     }
 }
